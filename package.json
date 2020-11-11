@@ -1,0 +1,31 @@
+{
+  "name": "find-team-back",
+  "version": "1.0.0",
+  "description": "Find Team backend repo",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaeladze/find-team-back.git"
+  },
+  "author": "MichaelWebHub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michaeladze/find-team-back/issues"
+  },
+  "homepage": "https://github.com/Michaeladze/find-team-back#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13",
+    "monodb": "^1.4.2",
+    "nodemailer": "^6.4.15"
+  }
+}
